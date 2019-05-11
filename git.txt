@@ -1,0 +1,74 @@
+cd /d d:\
+
+Go to dir 
+- cd D:/users/tommy/pycharmprojects
+
+create a .git file
+- git init
+
+check status of files
+- git status
+
+create a gitignore file
+- touch .gitignore
+(open the .gitignore file with a text editor and add the names mentioned in the status)
+
+add to staging area
+- git add .gitignore
+
+add everything to staging area
+- git add -A
+
+to reset from staging area
+- git reset (filename)
+
+to reset all
+- git reset
+
+to commit
+- git commit -m "message"
+
+git log shows who committed it
+- git log
+
+push an existing repository  
+- git remote add origin https://github.com/tomsonman18/just_testing_how_this_works.git
+- git push -u origin master
+
+cloning a remote repository
+url = where from 
+where to clone = where to
+- git clone <url> <where to clone>
+
+where the remote is
+- git remote -v
+
+branch info
+- git branch -a
+
+to push to remote repository first pull
+- git pull origin master
+- git push origin master
+
+create a branch
+- git branch <name>
+
+to select (use) the branch
+- git checkout <name>
+
+to see which branches have been merged
+- git branch --merged
+
+to merge branches with current branch
+- git merge <name>
+
+git push origin master
+- will push the changes in the master
+
+to delete the branch from local repository
+- git branch -d <name>
+
+to delete the branch from the remote repository
+- git push origin --delete <name>
+
+
